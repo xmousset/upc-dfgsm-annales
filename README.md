@@ -28,7 +28,9 @@ Les annales de médecine (DFGSM) transformées en cartes Anki : tu coches les pr
 ## Comment fonctionne une carte
 
 - **Recto :** une question et jusqu'à 5 propositions, chacune avec une case. Coche toutes celles que tu penses **vraies**. L'ordre est mélangé à chaque fois.
-- **Verso :** les propositions sont écrites en $\color{#9dff1b}{\textsf{vert si vraies}}$ et en $\color{#ff445d}{\textsf{rouge si fausses}}$. Celles où tu t'es trompé sont $\colorbox{#ffd199}{\color{black}\textsf{surlignées en orange}}$. Tu vois aussi ton score et la source de la question.
+- **Verso :** les propositions sont écrites en $\color{#9dff1b}{\textsf{vert si vraies}}$ et en $\color{#ff445d}{\textsf{rouge si fausses}}$. Celles où tu t'es trompé sont $\color{#ff8c00}{\textsf{\textbf{surlignées} en orange}}$. Tu vois aussi ton score et la source de la question.
+
+> ⚠️ Attention : on ne peut pas surligner de manière classique sur github, mais le texte sera bien surligné en orange ! La couleur du texte restera verte ou rouge selon la véracité de la proposition.
 
 Barème (nombre de propositions mal cochées ou oubliées) :
 
