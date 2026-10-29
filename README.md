@@ -28,7 +28,7 @@ Les annales de médecine (DFGSM) transformées en cartes Anki : tu coches les pr
 ## Comment fonctionne une carte
 
 - **Recto :** une question et jusqu'à 5 propositions, chacune avec une case. Coche toutes celles que tu penses **vraies**. L'ordre est mélangé à chaque fois.
-- **Verso :** les propositions sont colorées 🟢 vraie / 🔴 fausse, avec ton score et la source de la question.
+- **Verso :** les propositions sont écrites en $\color{#9dff1b}{\textsf{vert si vraies}}$ et en $\color{#ff445d}{\textsf{rouge si fausses}}$. Celles où tu t'es trompé sont $\colorbox{#ffd199}{\color{black}\textsf{surlignées en orange}}$. Tu vois aussi ton score et la source de la question.
 
 Barème (nombre de propositions mal cochées ou oubliées) :
 
@@ -167,10 +167,10 @@ La vérité d'une proposition est portée par une balise `<font>` autour du text
 
 | Proposition | Balise |
 |---|---|
-| Vraie 🟢 | `<font color="#9dff1b">…</font>` |
-| Fausse 🔴 | `<font color="#ff445d">…</font>` |
+| $\color{#9dff1b}{\textsf{Vraie}}$ | `<font color="#9dff1b">…</font>` |
+| $\color{#ff445d}{\textsf{Fausse}}$ | `<font color="#ff445d">…</font>` |
 
-> [!WARNING]
+> **⚠️ Attention**\
 > Le template cherche le code `9dff1b` dans le champ. Utiliser **exactement** ces deux balises : une couleur collée depuis un autre éditeur (`<span style="color: …">`) n'est pas reconnue et la proposition est comptée fausse.
 
 **Raccourcis de couleur (optionnel).** Le greffon [Color shortcuts](https://ankiweb.net/shared/info/2491935955) (`Outils > Greffons > Obtenir des greffons…`, code `2491935955`) permet de colorer le texte sélectionné au clavier. Configuration utilisée :
