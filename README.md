@@ -50,7 +50,7 @@ Chaque question porte un tag qui indique à quel point la correction est sûre :
 | `Annale::Correction::ai` | Réponse établie par une IA, cohérente avec le cours, pas (encore) relue par un humain. |
 | `Annale::Correction::none` | Correction incertaine ou contestée : lis la ligne **« À vérifier »** au verso. |
 
-Les cartes `IA` et `none` peuvent contenir une erreur, méfie-toi surtout avant l'examen.
+Les cartes `ai` et `none` peuvent contenir une erreur, méfie-toi surtout avant l'examen.
 
 ## Retrouver des cartes (tags)
 
@@ -119,11 +119,11 @@ Pas besoin de savoir utiliser Git :
 2. Indique : la matière, l'année, la session, le numéro de question (visible au verso) et, si possible, la bonne réponse avec sa source.
 3. Envoie. Les mainteneurs pourront intègrer la correction et mettre à jour le deck.
 
-On peut aussi proposer de **valider** une carte `IA` ou `none`, signaler une faute de frappe ou un problème d'affichage, ou demander une question oubliée.
+On peut aussi proposer de **valider** une carte `ai` ou `none`, signaler une faute de frappe ou un problème d'affichage, ou demander une question oubliée.
 
 ## Limites connues
 
-- Certaines corrections sont `IA` ou `none` (voir plus haut).
+- Certaines corrections sont `ai` ou `none` (voir plus haut).
 - Les questions dont l'image n'a pas pu être intégrée automatiquement sont ajoutées à la main, donc progressivement.
 - Anki trop ancien (avant 23.10) : l'affichage des cartes peut être incorrect.
 
